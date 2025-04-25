@@ -19,18 +19,4 @@ namespace Sitecore.Practise.App.Configurations
         public string XConnectClientConfig { get; }
         public string SitecoreReportingClientCertificate { get; }
     }
-
-    public class DeleteSettings
-    {
-        public DeleteSettings()
-        {
-            deleteContacts = System.Convert.ToBoolean(ConfigurationManager.AppSettings["enableDeleteContact"]);
-            batchSize = System.Convert.ToInt32(ConfigurationManager.AppSettings["batchSizeForDeleteContact"]);
-        }
-
-
-        public bool deleteContacts { get; }
-        public int batchSize { get; }
-
-    }
 }

@@ -184,6 +184,7 @@ namespace Sitecore.Practise.App.Controllers
 
         private async Task<bool> ProcessData(Interaction objInteraction, Contact objContact, string batchFileName, int rowCount)
         {
+            //await ThirdPartyProcess();
             return true;
         }
     }
