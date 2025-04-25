@@ -22,10 +22,10 @@ Once you have cloned the repository, the first thing is to configure web.config
 Example, in my case, i have configured my xconnect at https://localsc10xconnect.dev.local
 
 ### Step 2 : Project Build and Restore Packages
-Once above step is done, build the project and resolves the dependencies if raised.
+Once above step is done, build the project and resolves the dependencies if raised. Currently my local sitecore instance was configured with Sitecore version 10.1.1, so same version of packages were installed. You can upgrade the version as per your need.
 
 Below are packages which are required:
-
+ ```
 <package id="Sitecore.XConnect" version="10.1.1" targetFramework="net48" />
 <package id="Sitecore.XConnect.Client" version="10.1.1" targetFramework="net48" />
 <package id="Sitecore.XConnect.Collection.Model" version="10.1.1" targetFramework="net48" />
@@ -33,7 +33,7 @@ Below are packages which are required:
 <package id="Sitecore.XConnect.Diagnostics" version="10.1.1" targetFramework="net48" />
 <package id="Sitecore.XConnect.Search" version="10.1.1" targetFramework="net48" />
 <package id="Sitecore.Xdb.Common.Web" version="10.1.1" targetFramework="net48" />
-
+ ```
 ### Step 3 : Run Application and Debug Options
 You can simply run the application by pressing f5 and go to https://{hosturl}/ManageContacts/FetchCount in browser to get the interaction count during specified period of time.
 You can debug the application, XConnectClientReader class will create the trust connection with XConnect.
