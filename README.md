@@ -52,3 +52,6 @@ Below are the 3 endpoints created:
 
 # Summary
 This is a very basic app created to show how we can connect to xconnect and traverse interactions and contacts. You can further customize this application according to your needs. This app was created when Sitecore 10.1.0 was released but can be used with its later versions as well.
+
+# Related Blog
+https://arjunarora-sitecore.blogspot.com/2025/04/working-with-xconnect-client-api.html
